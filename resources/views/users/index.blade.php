@@ -31,5 +31,5 @@
     @endforeach
 </table>
 
-{{ $users->links('pagination::default') }}
+{{ $users->links('paging') }}
 @endsection

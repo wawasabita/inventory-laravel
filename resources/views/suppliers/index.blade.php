@@ -38,5 +38,5 @@
     @endforelse
 </table>
 
-{{ $suppliers->links('pagination::default') }}
+{{ $suppliers->links('paging') }}
 @endsection

@@ -36,5 +36,5 @@
     @endforelse
 </table>
 
-{{ $categories->links('pagination::default') }}
+{{ $categories->links('paging') }}
 @endsection

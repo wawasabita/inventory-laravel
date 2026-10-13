@@ -60,5 +60,5 @@
     @endforelse
 </table>
 
-{{ $products->links('pagination::default') }}
+{{ $products->links('paging') }}
 @endsection

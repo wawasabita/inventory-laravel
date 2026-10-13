@@ -45,5 +45,5 @@
     @endforelse
 </table>
 
-{{ $movements->links('pagination::default') }}
+{{ $movements->links('paging') }}
 @endsection
